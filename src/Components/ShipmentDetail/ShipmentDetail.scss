@@ -1,0 +1,19 @@
+.shipment-detail-wrapper {
+  padding: 5%;
+  .row {
+    padding: 3%;
+    &:nth-child(odd) {
+      background: #cdc1c1;
+    }
+  }
+  .col {
+    div {
+      margin-top: 1%;
+      span {
+        background: #fff;
+        color: #cdc1c1;
+        padding: 10px;
+      }
+    }
+  }
+}
